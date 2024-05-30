@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Inicio</title>
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <style>
+          body {
+            background-color: rgba(93, 110, 104, 0.267);
+            margin: 0 5%;
+            font-family: sans-serif;
+          }
+          
+          .img-mediana {
+            width: 500px;
+            height: auto;
+        }
+
+        .image-container {
+            float: right;
+            margin-left: 20px;
+        }
+          @media screen and (min-width: 321px) and (max-width: 768px) {
+            body {
+                font-size:80%; 
+            }
+        }
+            .navbar {
+                overflow: hidden;
+                background-color: rgb(39, 35, 77)
+            }
+            
+            .navbar a {
+                float: left;
+                display: block;
+                color: #020100;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            } 
+            .footer {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer a {
+            float: left;
+            display: block;
+            color: #d11414;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            background-color: rgb(45, 95, 93);
+            color: rgb(27, 27, 58);
+        }
+            .navbar a:hover {
+                background-color: rgb(20, 124, 114);
+                color: rgb(113, 187, 138);
+            }
+            .content {
+              text-align: justify; font-family: Arial, sans-serif; font-size: 16px; color: #333;
+      }
+      .container {
+      display: flex;
+      }
+        </style>
+    
+    </head>
+    <body>
+    
+        <div class="navbar">
+            <a href="#home" onclick="alert('Bienvenido al menu de la pagina, por favor continue con su navegación')">Inicio</a>
+            <a href="#news" onclick="alert('Esta pagin forma parte de un practica :)')">Noticias</a>
+            <a href="#contact" onclick="alert('Integrantes de equipo:\n- Kevin Valdemar Tapia García\n- Kevin Daniel')">Integrantes</a>
+          </div>
+          
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Mi Sitio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="consejos_seguridad.html">Consejos de seguridad</a>
+                          </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="proteccion_contraseñas.html">Proteccion de contraseñas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="seguridad_en_redes_social.html">Seguridad en redes sociales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="proteccion_contra_malware.html">Proteccion contra malware</a>
+              </li>
+              <li class="nav-item">
+                    <a class="nav-link" href="recursos.html">Recursos y enlaces utiles</a>
+                  </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <div class="content">
+        <div class="image-container">
+          <img src="images\seguridadeninternet1_xl.png" alt="Descripción de la imagen" class="img-mediana">
+      </div style="float: right;">
+        <h3>Bienvenido a la pagina</h3>
+        <p style="text-align: justify; font-family: Arial, sans-serif; font-size: 16px; color: #333;">Esta pagina fue elaborada para atender las diferentes dudas acerca de 
+          la importancia sobre la navegacion segura en internet, establecer contraseñas 
+          seguras para el acceso a sitios, ademas de conocer los sitios que visitamos para poder evitar 
+          que nuestro ordenador/dispositivo pueda adquirir un malware en alguna pagina maliciosa,conociendo algunos
+          consejos de gran utilidad.
+        </p>
+      </div>
+    </body>
+    </html>
+    
